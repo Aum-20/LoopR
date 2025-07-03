@@ -38,7 +38,7 @@ Create a `.env` file in the root:
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/financial-dashboard
 JWT_SECRET=your-super-secret-key
-FRONTEND_URL=http://localhost:5173
+FRONTEND_URL=http://localhost:8080
 ```
 
 ---
@@ -122,7 +122,7 @@ npm test
 | `PORT`         | Backend port                     | 5000                                           |
 | `MONGODB_URI`  | MongoDB connection string        | mongodb://localhost:27017/...                  |
 | `JWT_SECRET`   | JWT token signing key            | required                                       |
-| `FRONTEND_URL` | Whitelisted CORS frontend domain | [http://localhost:5173](http://localhost:5173) |
+| `FRONTEND_URL` | Whitelisted CORS frontend domain | [http://localhost:5173](http://localhost:8080) |
 
 ---
 
